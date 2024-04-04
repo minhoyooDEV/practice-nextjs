@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "formulahendry.auto-close-tag",
+    "esbenp.prettier-vscode",
+    "aaron-bond.better-comments",
+    "naumovs.color-highlight",
+    "gruntfuggly.todo-tree",
+    "orta.vscode-twoslash-queries",
+    "usernamehw.errorlens",
+    "vscode-icons-team.vscode-icons",
+    "chakrounanas.turbo-console-log",
+    "wayou.vscode-todo-highlight",
+    "ibm.output-colorizer",
+    "yzhang.markdown-all-in-one",
+    "wix.vscode-import-cost",
+    "dbaeumer.vscode-eslint",
+    "wallabyjs.console-ninja"
+  ]
+}
