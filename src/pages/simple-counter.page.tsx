@@ -1,11 +1,15 @@
+import useCounter from "~/hooks/useCounter.hook";
+
 const SimpleCounterPage = () => {
+  const {count, reset, increaseCount, decreaseCount} = useCounter(0)
+
   return (
     <div>
       <h1>Simple Counter</h1>
-      {/* <div>카운터 값을 표시헤주세요.</div> */}
-      {/* <button onClick={() => {}}>증가</button>
-      <button onClick={() => {}}>초기화</button>
-      <button onClick={() => {}}>감소</button> */}
+      <div>카운터 값: {count}</div>
+      <button onClick={() => increaseCount()}>증가</button>
+      <button onClick={() => decreaseCount()}>감소</button>
+      <button onClick={() => reset()}>초기화</button>
     </div>
   );
 };
