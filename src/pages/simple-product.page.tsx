@@ -2,8 +2,7 @@ import ProductList from "~/components/ProductList.component";
 import useFetchProductList from "~/hooks/useFetchProductList.hook";
 
 const SimpleProductPage = () => {
-
-  const { response } = useFetchProductList()
+  const { response } = useFetchProductList();
 
   return (
     <div>

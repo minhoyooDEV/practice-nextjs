@@ -1,7 +1,7 @@
 import useCounter from "~/hooks/useCounter.hook";
 
 const SimpleCounterPage = () => {
-  const {count, reset, increaseCount, decreaseCount} = useCounter(0)
+  const { count, reset, increaseCount, decreaseCount } = useCounter(0);
 
   return (
     <div>
