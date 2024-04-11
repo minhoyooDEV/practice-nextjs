@@ -1,18 +1,13 @@
-import { useEffect } from "react";
+import ProductList from "~/components/ProductList.component";
+import useFetchProductList from "~/hooks/useFetchProductList.hook";
 
 const SimpleProductPage = () => {
-  // product-list를 가져오는 임시코드입니다.
-  // useEffect(() => {
-  //   fetch("/api/product-list").then((response) => {
-  //     response.json().then((data) => {
-  //       console.log(data);
-  //     });
-  //   });
-  // }, []);
+  const { response } = useFetchProductList();
 
   return (
     <div>
       <h1>Simple Product Page</h1>
+      <ProductList products={response}></ProductList>
     </div>
   );
 };

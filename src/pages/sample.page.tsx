@@ -4,6 +4,6 @@ const SamplePage: React.FC = () => {
       <h1>Sample Page</h1>
     </div>
   );
-}
+};
 
 export default SamplePage;
